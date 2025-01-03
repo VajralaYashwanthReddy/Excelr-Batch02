@@ -3,7 +3,7 @@ public class Demo6 {
             String username = "Yashwanth";
             String pwd = "Yashwanth@123";
             while(username == "Yashwanth" && pwd == "Yashwanth@123"){
-                System.out.println("Hello yashwanth Happy New Year!");
+                System.out.println("Hello yashwanth Welcome to Mallareddy University");
                 break;
             }
             }
