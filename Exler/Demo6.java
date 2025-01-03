@@ -1,10 +1,13 @@
+import java.util.Scanner;
 public class Demo6 {
         public static void main (String[] args){
-            String username = "Yashwanth";
-            String pwd = "Yashwanth@123";
-            while(username == "Yashwanth" && pwd == "Yashwanth@123"){
-                System.out.println("Hello yashwanth Welcome to Mallareddy University");
-                break;
-            }
+            String name;
+            int age;
+            int phone_number;
+            Scanner sc = new Scanner(System.in);
+            name = sc.nextLine();
+            age = sc.nextInt();
+            phone_number = sc.nextInt();
+            System.out.println("name "+name+"and age is "+age+" and phone number is "+phone_number);
             }
         }
