@@ -1,4 +1,4 @@
-import java.util.Scanner;public class Ps018 {
+import java.util.Scanner;public class Ps001 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of minutes: ");
