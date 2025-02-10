@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -12,11 +12,9 @@ class Solution {
                 }
             }
         }
-       
         return indi;
     }
 }
-
 class LTCode005{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
